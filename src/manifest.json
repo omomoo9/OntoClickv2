@@ -6,7 +6,9 @@
     "service_worker": "static/js/background.js"
   },
   "manifest_version": 3,
-  "content_security_policy": "script-src 'self' 'unsafe-eval' https://use.fontawesome.com/releases/v5.14.0/js/all.js; object-src 'self'",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'unsafe-eval' https://use.fontawesome.com/releases/v5.14.0/js/all.js; object-src 'self'"
+  },
   "icons": {
     "16": "static/img/rdf_flyer.png",
     "128": "static/img/rdf_flyer.png"
