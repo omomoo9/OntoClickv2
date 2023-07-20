@@ -7,7 +7,8 @@
   },
   "manifest_version": 3,
   "content_security_policy": {
-    "extension_pages": "script-src 'self' 'unsafe-eval' https://use.fontawesome.com/releases/v5.14.0/js/all.js; object-src 'self'"
+    "extension_pages": "script-src 'self'; object-src 'self'",
+    "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' https://use.fontawesome.com/releases/v5.14.0/js/all.js; 'unsafe-eval'; object-src 'self';"
   },
   "icons": {
     "16": "static/img/rdf_flyer.png",
