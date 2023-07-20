@@ -3,7 +3,7 @@
   "description": "Turn your clinical description into a proper ontology term.",
   "version": "2.0.0",
   "background": {
-    "service_worker": "static/js/background.js"
+    "service_worker": "background.js"
   },
   "manifest_version": 3,
   "content_security_policy": {
@@ -11,8 +11,8 @@
     "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' https://use.fontawesome.com/releases/v5.14.0/js/all.js; 'unsafe-eval'; object-src 'self';"
   },
   "icons": {
-    "16": "static/img/rdf_flyer.png",
-    "128": "static/img/rdf_flyer.png"
+    "16": "assets/rdf_flyer.png",
+    "128": "assets/rdf_flyer.png"
   },
   "browser_action": {
     "default_title": "Ontoclick",
