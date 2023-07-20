@@ -14,7 +14,7 @@
     "16": "assets/rdf_flyer.png",
     "128": "assets/rdf_flyer.png"
   },
-  "browser_action": {
+  "action": {
     "default_title": "Ontoclick",
     "default_popup": "index.html"
   },
