@@ -8,7 +8,7 @@
   "manifest_version": 3,
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'",
-    "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' https://use.fontawesome.com/releases/v5.14.0/js/all.js 'unsafe-eval'; object-src 'self';"
+    "sandbox": "sandbox allow-scripts; script-src 'self' 'https://use.fontawesome.com/releases/v5.14.0/js/all.js'; 'wasm-unsafe-eval' 'inline-speculation-rules'; object-src 'self';"
   },
   "icons": {
     "16": "assets/rdf_flyer.png",
@@ -22,12 +22,12 @@
     {
       "resources": [
         "index.html",
-        "static/js/app.js",
-        "static/js/app.js.map",
-        "static/js/vendor.js",
-        "static/js/vendor.js.map",
-        "static/css/app.css",
-        "static/css/app.css.map"
+        "js/app.js",
+        "js/app.js.map",
+        "js/vendor.js",
+        "js/vendor.js.map",
+        "css/app.css",
+        "css/app.css.map"
       ],
       "matches": [
         "*://*/*"
