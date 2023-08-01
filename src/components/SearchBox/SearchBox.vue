@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import Treeselect from '@riophae/vue-treeselect'
+import Treeselect from 'naive-ui'
 // import {
   // options,
   // ontologyByAcronym
