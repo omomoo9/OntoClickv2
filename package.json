@@ -29,7 +29,7 @@
     "vuex": "^2.0.0"
   },
   "devDependencies": {
-    "@riophae/vue-treeselect": "^0.0.6",
+    "naive-ui": "^2.34.4",
     "autoprefixer": "^6.4.0",
     "babel-core": "^6.0.0",
     "babel-eslint": "^7.0.0",
